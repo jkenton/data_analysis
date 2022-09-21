@@ -15,7 +15,7 @@ I then loaded the files into Microsoft Excel and familiarized myself with the da
 
 After seeing that the data problem was limited to ridership, as opposed to location-to-location trends, I elected to remove columns that had location-related data to simplify the analysis materials. The concerns section has more detail about this decision.
 
-I assured that each of the thus-reduced data files had all pertinent data for the ridership questions. There were no missing values across the twelve data files. There was information about 5,883,043 ride segments. 
+I assured that each of the thus-reduced data files had all pertinent data for the ridership questions. There were no missing values across the twelve data files. There was information about all 5,883,043 ride segments. 
 
 I completed a pivot table analysis of the data, using casual-member as the row information, day-of-the-week as column information, and values came from the count of rides, and the average duration of rides.
 
@@ -25,7 +25,7 @@ The summary table was used to create some visualizations that helped to identify
 
 RESULTS
 
-One fairly clear difference between casual and member riders was seen in the difference of average ride duration. Whereas the members were fairly consistent in their average usage as a group (12 mins and 29 seconds, plus or minus two minutes), casual riders made longer rides on average (28 mins and 40 seconds, plus or minus four minutes)
+One fairly clear difference between casual and member riders was seen in the difference of average ride duration. Whereas the members were fairly consistent in their average usage as a group (12 mins and 29 seconds, plus or minus two minutes), casual riders made longer rides on average (28 mins and 40 seconds, plus or minus four minutes). This difference was consistent for every month.
 
 month-month differences
 
@@ -39,3 +39,4 @@ I noted that many of the data records were missing information related to starti
 
 If a future analysis is undertaken regarding the begin- and end-points of the ride segments, a method must be created to deal with this substantial volume of missing data.
 
+Another significant concern with the data was a substantial drop noted in the May data set related to casual Thursday bikers.
